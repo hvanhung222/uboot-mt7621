@@ -193,7 +193,7 @@ const struct spi_flash_info spi_flash_ids[] = {
 	{"w25q64dw",	   INFO(0xef6017, 0x0,	64 * 1024,   128, RD_FULL | WR_QPP | SECT_4K) },
 	{"w25q64jv",	   INFO(0xef7017, 0x0,	64 * 1024,   128, RD_FULL | WR_QPP | SECT_4K) },
 	{"w25q128fw",	   INFO(0xef6018, 0x0,	64 * 1024,   256, RD_FULL | WR_QPP | SECT_4K) },
-	{"w25q128jv",	   INFO(0xef7018, 0x0,	64 * 1024,   256, RD_FULL | WR_QPP | SECT_4K) },
+	{"w25q128jv",	   INFO(0xef4018, 0x0,	64 * 1024,   256, RD_FULL | WR_QPP | SECT_4K) },
 	{"w25q128jw",	   INFO(0xef8018, 0x0,	64 * 1024,   256, RD_FULL | WR_QPP | SECT_4K) },
 	{"w25q256fw",	   INFO(0xef6019, 0x0,	64 * 1024,   512, RD_FULL | WR_QPP | SECT_4K) },
 	{"w25q256jw",	   INFO(0xef7019, 0x0,	64 * 1024,   512, RD_FULL | WR_QPP | SECT_4K) },
